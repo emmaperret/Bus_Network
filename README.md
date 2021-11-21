@@ -17,9 +17,8 @@ Same goes for pressure with the following command:
 > <P> 'now','all'
 The perfect move would have been to directly create rotation of the motor according to the received temperature multiplied by a coefficient that would have enabled us to follow the real time evolution of temperature. We were not very far from that peculiar point, we can collect the temperature as hexadecimal data.
 
-
-
 ### Communication with the Raspberry Pi
+For this communication we have activated the UART4 port. We have therefore modified the printf function so that the display is done on both USART ports.
 This project is made in **another** branch be careful to download both to test this code. Indeed, we had not the time to implement this part of our work in the shell command base. Therefore we had no other option than to upload this part of the program outside our working code. We had trouble testing the communication between the internet and the raspberry pi. Yet the communcation between the Raspberry and the STM32 microcontroller use to work properly before it crashed due to a bad manipulation. 
 
 
