@@ -12,9 +12,13 @@ To enable a proper understanding and the use of the shell command tool. You need
 
 ### Setting the sensor communication : I2C protocol
 The I2C protocol is a serial protocol which takes and address to enable identification of the **slave**. To get the data from the sensor thanks to I2C, in the shell enter :
-> <T> 'now','all' to see wheter the last or all the temperature you have requested since the start.
+> 'T' 'now','all' to see wheter the last or all the temperature you have requested since the start.
+
 Same goes for pressure with the following command:
-> <P> 'now','all'
+
+> 'P' 'now','all'
+
+
 The perfect move would have been to directly create rotation of the motor according to the received temperature multiplied by a coefficient that would have enabled us to follow the real time evolution of temperature. We were not very far from that peculiar point, we can collect the temperature as hexadecimal data.
 
 ### Communication with the Raspberry Pi
