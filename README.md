@@ -19,7 +19,7 @@ The perfect move would have been to directly create rotation of the motor accord
 
 
 
-### Communication with the Raspberr Pi
+### Communication with the Raspberry Pi
 This project is made in **another** branch be careful to download both to test this code. Indeed, we had not the time to implement this part of our work in the shell command base. Therefore we had no other option than to upload this part of the program outside our working code. We had trouble testing the communication between the internet and the raspberry pi. Yet the communcation between the Raspberry and the STM32 microcontroller use to work properly before it crashed due to a bad manipulation. 
 
 
