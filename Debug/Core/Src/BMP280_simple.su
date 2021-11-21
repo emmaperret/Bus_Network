@@ -1,0 +1,6 @@
+BMP280_simple.c:25:5:BMP280_check	24	static
+BMP280_simple.c:51:5:BMP280_init	16	static
+BMP280_simple.c:68:5:BMP280_Write_Reg	32	static
+BMP280_simple.c:91:10:BMP280_Read_Reg	32	static
+BMP280_simple.c:110:14:BMP280_get_temperature	16	static
+BMP280_simple.c:128:5:BMP280_get_pressure	16	static
