@@ -26,7 +26,7 @@ This project is made in **another** branch be careful to download both to test t
 
 
 ## Using CAN protocol to initiate movement
-The CAN protocol could have allowed us to manipulate serveral mechanical modules. We implemented the command thanks to the PIN  **  PB8 ** and ** PB9 ** on the CAN1 available setup in the microcontroller.
+The CAN protocol could have allowed us to manipulate serveral mechanical modules. We implemented the command thanks to the PIN  **PB8** and **PB9** on the CAN1 available setup in the microcontroller.
 The function `M` in the `shell` is made to allow movement of the motor thanks to CAN communication. You cannot change the angle of rotation, which is set by default to 90 degrees.
 
 ## Coding the internet interface 
